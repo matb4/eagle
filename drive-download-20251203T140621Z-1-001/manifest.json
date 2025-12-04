@@ -1,0 +1,116 @@
+{
+  "name": "FalconPro - Falconry Training Management",
+  "short_name": "FalconPro",
+  "description": "Professional falconry training management system with hood pattern generator",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2D5016",
+  "theme_color": "#D4A574",
+  "orientation": "portrait-primary",
+  "categories": ["sports", "productivity", "education"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "resources/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "resources/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "resources/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "resources/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "resources/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "resources/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "resources/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "resources/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "resources/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "resources/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Training Session",
+      "short_name": "Training",
+      "description": "Start a new training session",
+      "url": "/training.html",
+      "icons": [
+        {
+          "src": "resources/training-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Hood Generator",
+      "short_name": "Hood",
+      "description": "Generate custom hood patterns",
+      "url": "/hood-generator.html",
+      "icons": [
+        {
+          "src": "resources/hood-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Analytics",
+      "short_name": "Analytics",
+      "description": "View training analytics",
+      "url": "/analytics.html",
+      "icons": [
+        {
+          "src": "resources/analytics-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
